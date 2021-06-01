@@ -13,6 +13,7 @@
 		18D77EA81D9B6D1D0010F860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EA61D9B6D1D0010F860 /* Main.storyboard */; };
 		18D77EAA1D9B6D1D0010F860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EA91D9B6D1D0010F860 /* Assets.xcassets */; };
 		18D77EAD1D9B6D1D0010F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EAB1D9B6D1D0010F860 /* LaunchScreen.storyboard */; };
+		BE130ED160CBB36519CB374A /* libPods-AlarmClock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		18D77EA91D9B6D1D0010F860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D77EAC1D9B6D1D0010F860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D77EAE1D9B6D1D0010F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933319235EADFC01E6EF7C0C /* Pods-AlarmClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock.release.xcconfig"; sourceTree = "<group>"; };
+		D2A7F821A7123128F02C5945 /* Pods-AlarmClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock.debug.xcconfig"; sourceTree = "<group>"; };
+		D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlarmClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE130ED160CBB36519CB374A /* libPods-AlarmClock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				18D77E9C1D9B6D1D0010F860 /* AlarmClock */,
 				18D77E9B1D9B6D1D0010F860 /* Products */,
+				EB01F0F996505745C886442C /* Pods */,
+				2A5908E68AC4B22ACA634E94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +166,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2A5908E68AC4B22ACA634E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB01F0F996505745C886442C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2A7F821A7123128F02C5945 /* Pods-AlarmClock.debug.xcconfig */,
+				933319235EADFC01E6EF7C0C /* Pods-AlarmClock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D77EB11D9B6D1D0010F860 /* Build configuration list for PBXNativeTarget "AlarmClock" */;
 			buildPhases = (
+				CADC933F7136CD67F0F00758 /* [CP] Check Pods Manifest.lock */,
 				18D77E961D9B6D1D0010F860 /* Sources */,
 				18D77E971D9B6D1D0010F860 /* Frameworks */,
 				18D77E981D9B6D1D0010F860 /* Resources */,
+				B1369B92A865C73CB63253C1 /* [CP] Embed Pods Frameworks */,
+				AAB5A3D190B654155CF8241C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +250,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAB5A3D190B654155CF8241C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1369B92A865C73CB63253C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADC933F7136CD67F0F00758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D77E961D9B6D1D0010F860 /* Sources */ = {
@@ -343,6 +418,7 @@
 		};
 		18D77EB21D9B6D1D0010F860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A7F821A7123128F02C5945 /* Pods-AlarmClock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlarmClock/Info.plist;
@@ -354,6 +430,7 @@
 		};
 		18D77EB31D9B6D1D0010F860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933319235EADFC01E6EF7C0C /* Pods-AlarmClock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlarmClock/Info.plist;
@@ -382,6 +459,7 @@
 				18D77EB31D9B6D1D0010F860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
