@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BSKConsts.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    ScreenWidth = [UIScreen mainScreen].bounds.size.width;
+    ScreenHeight = [UIScreen mainScreen].bounds.size.height;
     // Override point for customization after application launch.
     return YES;
 }

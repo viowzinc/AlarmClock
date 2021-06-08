@@ -13,6 +13,7 @@
 		18D77EA81D9B6D1D0010F860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EA61D9B6D1D0010F860 /* Main.storyboard */; };
 		18D77EAA1D9B6D1D0010F860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EA91D9B6D1D0010F860 /* Assets.xcassets */; };
 		18D77EAD1D9B6D1D0010F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EAB1D9B6D1D0010F860 /* LaunchScreen.storyboard */; };
+		18F3A6521D9B757400FA29B9 /* BSKConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A6511D9B757400FA29B9 /* BSKConsts.m */; };
 		BE130ED160CBB36519CB374A /* libPods-AlarmClock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		18D77EA91D9B6D1D0010F860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D77EAC1D9B6D1D0010F860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D77EAE1D9B6D1D0010F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F3A6501D9B757400FA29B9 /* BSKConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKConsts.h; sourceTree = "<group>"; };
+		18F3A6511D9B757400FA29B9 /* BSKConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKConsts.m; sourceTree = "<group>"; };
 		933319235EADFC01E6EF7C0C /* Pods-AlarmClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock.release.xcconfig"; sourceTree = "<group>"; };
 		D2A7F821A7123128F02C5945 /* Pods-AlarmClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock.debug.xcconfig"; sourceTree = "<group>"; };
 		D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlarmClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,8 @@
 				18D77EAB1D9B6D1D0010F860 /* LaunchScreen.storyboard */,
 				18D77EAE1D9B6D1D0010F860 /* Info.plist */,
 				18D77E9D1D9B6D1D0010F860 /* Supporting Files */,
+				18F3A6501D9B757400FA29B9 /* BSKConsts.h */,
+				18F3A6511D9B757400FA29B9 /* BSKConsts.m */,
 			);
 			path = AlarmClock;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F3A6521D9B757400FA29B9 /* BSKConsts.m in Sources */,
 				18D77EA51D9B6D1D0010F860 /* ViewController.m in Sources */,
 				18D77EA21D9B6D1D0010F860 /* AppDelegate.m in Sources */,
 				18D77E9F1D9B6D1D0010F860 /* main.m in Sources */,
