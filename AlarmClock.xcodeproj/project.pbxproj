@@ -14,6 +14,15 @@
 		18D77EAA1D9B6D1D0010F860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EA91D9B6D1D0010F860 /* Assets.xcassets */; };
 		18D77EAD1D9B6D1D0010F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D77EAB1D9B6D1D0010F860 /* LaunchScreen.storyboard */; };
 		18F3A6521D9B757400FA29B9 /* BSKConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A6511D9B757400FA29B9 /* BSKConsts.m */; };
+		18F3A6551D9BA9DC00FA29B9 /* AlarmClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A6541D9BA9DC00FA29B9 /* AlarmClockViewController.m */; };
+		18F3A65E1D9BB0BE00FA29B9 /* 新建.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3A65C1D9BB0BE00FA29B9 /* 新建.png */; };
+		18F3A65F1D9BB0BE00FA29B9 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3A65D1D9BB0BE00FA29B9 /* 设置.png */; };
+		18F3A6621D9BB0FD00FA29B9 /* AlarmClockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A6611D9BB0FD00FA29B9 /* AlarmClockTableViewCell.m */; };
+		18F3A6651D9BBDB600FA29B9 /* AddAlarmClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A6641D9BBDB600FA29B9 /* AddAlarmClockViewController.m */; };
+		18F3A6671D9BC5EC00FA29B9 /* 确认.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3A6661D9BC5EC00FA29B9 /* 确认.png */; };
+		18F3A6691D9BC5F000FA29B9 /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F3A6681D9BC5F000FA29B9 /* 取消.png */; };
+		18F3A66C1D9BC83900FA29B9 /* AddCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A66B1D9BC83900FA29B9 /* AddCustomTableViewCell.m */; };
+		18F3A66F1D9BCB6800FA29B9 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3A66E1D9BCB6800FA29B9 /* SettingViewController.m */; };
 		BE130ED160CBB36519CB374A /* libPods-AlarmClock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +39,20 @@
 		18D77EAE1D9B6D1D0010F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F3A6501D9B757400FA29B9 /* BSKConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKConsts.h; sourceTree = "<group>"; };
 		18F3A6511D9B757400FA29B9 /* BSKConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKConsts.m; sourceTree = "<group>"; };
+		18F3A6531D9BA9DC00FA29B9 /* AlarmClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockViewController.h; sourceTree = "<group>"; };
+		18F3A6541D9BA9DC00FA29B9 /* AlarmClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockViewController.m; sourceTree = "<group>"; };
+		18F3A65C1D9BB0BE00FA29B9 /* 新建.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新建.png"; sourceTree = "<group>"; };
+		18F3A65D1D9BB0BE00FA29B9 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		18F3A6601D9BB0FD00FA29B9 /* AlarmClockTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockTableViewCell.h; sourceTree = "<group>"; };
+		18F3A6611D9BB0FD00FA29B9 /* AlarmClockTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockTableViewCell.m; sourceTree = "<group>"; };
+		18F3A6631D9BBDB600FA29B9 /* AddAlarmClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlarmClockViewController.h; sourceTree = "<group>"; };
+		18F3A6641D9BBDB600FA29B9 /* AddAlarmClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlarmClockViewController.m; sourceTree = "<group>"; };
+		18F3A6661D9BC5EC00FA29B9 /* 确认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确认.png"; sourceTree = "<group>"; };
+		18F3A6681D9BC5F000FA29B9 /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
+		18F3A66A1D9BC83900FA29B9 /* AddCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomTableViewCell.h; sourceTree = "<group>"; };
+		18F3A66B1D9BC83900FA29B9 /* AddCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomTableViewCell.m; sourceTree = "<group>"; };
+		18F3A66D1D9BCB6800FA29B9 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		18F3A66E1D9BCB6800FA29B9 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		933319235EADFC01E6EF7C0C /* Pods-AlarmClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock.release.xcconfig"; sourceTree = "<group>"; };
 		D2A7F821A7123128F02C5945 /* Pods-AlarmClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmClock/Pods-AlarmClock.debug.xcconfig"; sourceTree = "<group>"; };
 		D41729C581A40279C6CD25C8 /* libPods-AlarmClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlarmClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +91,7 @@
 		18D77E9C1D9B6D1D0010F860 /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
+				18F3A6561D9BB08000FA29B9 /* Images */,
 				18D77EB71D9B6F170010F860 /* AlarmClock */,
 				18D77EBB1D9B6F230010F860 /* TimeKeeping */,
 				18D77EBE1D9B6F2C0010F860 /* StopWatch */,
@@ -107,6 +131,12 @@
 		18D77EB81D9B6F170010F860 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				18F3A6531D9BA9DC00FA29B9 /* AlarmClockViewController.h */,
+				18F3A6541D9BA9DC00FA29B9 /* AlarmClockViewController.m */,
+				18F3A6631D9BBDB600FA29B9 /* AddAlarmClockViewController.h */,
+				18F3A6641D9BBDB600FA29B9 /* AddAlarmClockViewController.m */,
+				18F3A66D1D9BCB6800FA29B9 /* SettingViewController.h */,
+				18F3A66E1D9BCB6800FA29B9 /* SettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -121,6 +151,10 @@
 		18D77EBA1D9B6F170010F860 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18F3A6601D9BB0FD00FA29B9 /* AlarmClockTableViewCell.h */,
+				18F3A6611D9BB0FD00FA29B9 /* AlarmClockTableViewCell.m */,
+				18F3A66A1D9BC83900FA29B9 /* AddCustomTableViewCell.h */,
+				18F3A66B1D9BC83900FA29B9 /* AddCustomTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +203,25 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		18F3A6561D9BB08000FA29B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				18F3A65B1D9BB0BE00FA29B9 /* AlarmClock */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		18F3A65B1D9BB0BE00FA29B9 /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				18F3A65C1D9BB0BE00FA29B9 /* 新建.png */,
+				18F3A65D1D9BB0BE00FA29B9 /* 设置.png */,
+				18F3A6661D9BC5EC00FA29B9 /* 确认.png */,
+				18F3A6681D9BC5F000FA29B9 /* 取消.png */,
+			);
+			path = AlarmClock;
 			sourceTree = "<group>";
 		};
 		2A5908E68AC4B22ACA634E94 /* Frameworks */ = {
@@ -248,9 +301,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F3A65F1D9BB0BE00FA29B9 /* 设置.png in Resources */,
+				18F3A6671D9BC5EC00FA29B9 /* 确认.png in Resources */,
 				18D77EAD1D9B6D1D0010F860 /* LaunchScreen.storyboard in Resources */,
 				18D77EAA1D9B6D1D0010F860 /* Assets.xcassets in Resources */,
+				18F3A6691D9BC5F000FA29B9 /* 取消.png in Resources */,
 				18D77EA81D9B6D1D0010F860 /* Main.storyboard in Resources */,
+				18F3A65E1D9BB0BE00FA29B9 /* 新建.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +368,12 @@
 			files = (
 				18F3A6521D9B757400FA29B9 /* BSKConsts.m in Sources */,
 				18D77EA51D9B6D1D0010F860 /* ViewController.m in Sources */,
+				18F3A66C1D9BC83900FA29B9 /* AddCustomTableViewCell.m in Sources */,
+				18F3A6621D9BB0FD00FA29B9 /* AlarmClockTableViewCell.m in Sources */,
 				18D77EA21D9B6D1D0010F860 /* AppDelegate.m in Sources */,
+				18F3A66F1D9BCB6800FA29B9 /* SettingViewController.m in Sources */,
+				18F3A6651D9BBDB600FA29B9 /* AddAlarmClockViewController.m in Sources */,
+				18F3A6551D9BA9DC00FA29B9 /* AlarmClockViewController.m in Sources */,
 				18D77E9F1D9B6D1D0010F860 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
